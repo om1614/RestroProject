@@ -1,0 +1,24 @@
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">id</th>
+      <th scope="col">name</th>
+      <th scope="col">address</th>
+      <th scope="col">email</th>
+      <th scope="col">Remove & Edit</th>
+
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let answer of collection">
+      <th scope="row">{{answer.id}}</th>
+      <td>{{answer.name}}</td>
+      <td>{{answer.address}}</td>
+      <td>{{answer.email}}</td>
+      <td><i (click)="removefrestro(answer.id)" class="fa fa-trash" style="font-size:17px;color:red;"></i>
+      <a href="/update/{{answer.id}}"><i  class="fa fa-edit" style="font-size:17px;color:rgb(5, 7, 131);"></i></a>></td>
+
+    </tr>
+
+  </tbody>
+</table>
