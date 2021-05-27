@@ -1,52 +1,28 @@
 {
   "restaurants": [
     {
-      "name": "om",
-      "email": "test@kfc",
+      "name": "kfc",
+      "email": "kfc@gmail.com",
       "address": "mumbai",
-      "id": 2
-    },
-    {
-      "name": "subway",
-      "email": "test@subway",
-      "address": "lucknow",
-      "id": 4
-    },
-    {
-      "name": "subway",
-      "email": "test@subway",
-      "address": "noida",
-      "id": 5
-    },
-    {
-      "name": "royal food",
-      "email": "royal@test",
-      "address": "kanaught place",
-      "id": 7
-    },
-    {
-      "name": "king chat",
-      "email": "chat@king",
-      "address": "lucknow",
-      "id": 10
-    },
-    {
-      "name": "krishna",
-      "email": "k@hyderabad",
-      "address": "hyderabad",
-      "id": 11
-    },
-    {
-      "name": "jishan",
-      "email": "jishan@test.com",
-      "address": "ahemedabad",
-      "id": 12
+      "id": 1
     },
     {
       "name": "bawarchi",
-      "email": "b@test.com",
+      "email": "baw@gmail.com",
       "address": "hyderabad",
-      "id": 13
+      "id": 2
+    },
+    {
+      "name": "kamal",
+      "email": "kamal@gmail.com",
+      "address": "delhi",
+      "id": 3
+    },
+    {
+      "name": "ashapuri",
+      "email": "ash@gmail.com",
+      "address": "ahemedabad",
+      "id": 4
     }
   ],
   "users": [
